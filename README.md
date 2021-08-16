@@ -8,5 +8,11 @@
 - Mysql: 8.0
 
 ## 使い方
-1.Use this templateを選択
-2.説明にしたがいtemplateを使用する
+1. JDKをローカル環境にインストール
+2. Use this templateを選択
+3. 説明に従いtemplateを使用する
+4. mkdir target
+5. mvnw package && java -jar target/***.jar(***の部分は作成されたjarファイルに合わせて適時変更)
+6. docker-compose up --build -d
+7. localhost:8080/index/emp
+8. 従業員リストが表示されれば成功
